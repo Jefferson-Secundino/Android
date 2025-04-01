@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+/* Carrega a fonte personalizada 'Bebas Neue' do google */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Carrega a fonte personalizada 'Android' */
+@font-face {
+    font-family: 'Android';
+    src: url('../font/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+/* Define variáveis de cores e fontes para reutilização */
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', cursive;
+    --fonte-Android: 'Android', cursive;
+}
+
+/* Reset básico para remover padding e margin padrão e definir box-sizing */
+* {
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+
+/* Define o corpo da página como um contêiner flexível em coluna */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 12.5em;
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor1);
+}
+
+/* HTML e o corpo ocupem 100% da largura e evita rolagem horizontal */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* Bloco: header */
+header {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3));
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+/* Título dentro do bloco header */
+.header__titulo {
+    padding: 0.5em ;
+    font-size: 3.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+    font-family: var(--fonte-destaque);
+    margin: auto;
+    width: 90%;
+}
+
+/* Descrição dentro do bloco header */
+.header__descricao {
+    font-size: 1.25em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+    max-width: 27em;
+    margin: auto;
+    width: 90%;
+}
+
+/* Bloco: nav */
+nav {
+    display: flex;
+    background-color: var(--cor4);
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* Elemento: links dentro do bloco nav */
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor0);
+    padding: 0.3125em;
+    margin: 0.625em 0.3125em 0.625em 0.3125em;
+    transition: background-color 0.3s, color 0.4s;
+    position: relative;
+}
+
+/* Efeito hover para os links do nav */
+nav a:hover {
+    background-color: var(--cor0);
+    color: var(--cor5);
+    border-radius: 0.1875em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+    transition: background-color 0.5s, color 0s;
+}
+
+/* Bloco: main */
+main {
+    background-color: white;
+    width: 90%;
+    max-width: 50em;
+    padding: 1.875em;
+    margin: 0 auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.30);
+    overflow-x: hidden;
+}
+
+/* Classe para links personalizados */
+.link {
+    background-color: var(--cor0);
+    color: var(--cor4);
+    text-decoration: none;
+    padding: 0.0625em;
+    border-radius: 0.3125em;
+    content: '\1F517';
+}
+
+/* Adiciona o emoji DEPOIS do texto do link */
+.link::after {
+    content: ' \1F517';
+}
+
+/* Efeito hover para links personalizados */
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Estilo para texto em negrito */
+strong {
+    color: var(--cor4);
+}
+
+/* Título do artigo com fonte personalizada */
+.article__titulo {
+    font-family: var(--fonte-Android);
+    color: var(--cor5);
+}
+
+/* Estilo para parágrafos dos textos */
+.text {
+	text-align: justify;
+	line-height: 1.3em;
+	text-indent: 1.5625em;
+	padding: 1.25em 0em;
+}
+
+/* Estilo para títulos h2 com gradiente de fundo */
+.h2 {
+    font-family: var(--fonte-Android);
+    color: var(--cor5);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    padding: 0.3125em;
+    border-radius: 0.125em;
+}
+
+
+/* Estilo para imagens responsivas */
+.img {
+    height: auto;
+    width: auto;
+    max-height: 18.75em;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* Contêiner para vídeos responsivos (proporção 16:9) */
+.video {
+    position: relative;
+    padding-bottom: 60.75%;
+    overflow: hidden;
+    height: 0;
+    background-color: var(--cor4);
+    margin: 0em -1.875em 1.875em -1.875em;
+}
+
+/* Iframe dentro do contêiner de vídeo */
+.video__iframe {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+
+/* Bloco: aside (seção adicional) */
+.aside {
+    background-color: var(--cor0);
+    border-radius: 0.625em;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.30);
+}
+
+/* Título do aside */
+.aside__titulo {
+    background-color: var(--cor3);
+    color: white;
+    padding: 0.625em;
+    border-radius: 0.625em 0.625em 0em 0em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
+}
+
+/* Textos dentro do aside */
+.aside__text {
+    padding: 0.625em;
+    text-align: justify;
+    text-indent: 1.25em
+}
+
+/* Lista com duas colunas */
+.ul {
+    column-count: 2;
+    padding-left: 1.875em;
+    margin-bottom: 0.625em;
+    list-style-position: inside;
+    column-gap: 0em;
+    line-height: 1.5em;
+}
+
+/* Rodapé da página */
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    padding: 0.3125em;
+    width: 100%;
+}
