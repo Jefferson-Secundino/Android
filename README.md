@@ -1,7 +1,8 @@
 # História do Mascote Android 📱
 
-![Preview do Site](imagens/preview.jpg)
+## 📸 Screenshot
 
+![Captura do Site](/imagens/screencapture-github-io-Android.png)
 Um site responsivo que conta a história do mascote Android, desenvolvido como projeto de estudo de HTML5 e CSS3.
 
 ## 🚀 Demonstração
@@ -37,7 +38,7 @@ Um site responsivo que conta a história do mascote Android, desenvolvido como p
 - Criação de efeitos hover com `transition` e `transform`
 - Implementação de gradientes com `linear-gradient()`
 
-### 🏗️ Arquitetura CSS
+### Arquitetura CSS
 - Organização seguindo princípios BEM (Block__Element--Modifier)
 - Uso estratégico de variáveis CSS para cores e fontes
 - Media queries bem definidas para 3 breakpoints
