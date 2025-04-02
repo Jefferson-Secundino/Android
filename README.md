@@ -1,28 +1,28 @@
-# Android
- 
+# Curiosidades de Tecnologia - História do Mascote Android 📱
 
- ## Índice :earth_americas:
+![Preview do Site](imagens/preview.jpg)
 
- - [Visão geral](#visão-geral-bookmark_tabs)
-  - [Screenshot](#screenshot-framed_picture)
-  - [Links](#links-link)
-- [Meu processo](#meu-processo-footprints)
-  - [Criado com](#criado-com-hammer_and_wrench)
-  - [O que aprendi](#o-que-aprendi-brain)
-  - [Recursos úteis](#recursos-úteis-mag_right)
-- [Autor](#autor-raising_hand_man)
-- [Reconhecimentos](#reconhecimentos-pray)
+Um site responsivo que conta a história do mascote Android, desenvolvido como projeto de estudo de HTML5 e CSS3.
 
+## 🚀 Demonstração
 
-### Links :link:
+[Acesse o projeto online](https://seu-usuario.github.io/nome-do-repositorio/)
 
-- [Site](https://jefferson-secundino.github.io/Android/)
+## ✨ Funcionalidades
 
-## Meu processo :footprints: 
+- Layout responsivo para todos os dispositivos
+- Navegação por seções
+- Vídeo incorporado do YouTube
+- Efeitos hover em links e botões
+- Design com gradientes e sombras
+- Fontes personalizadas (Bebas Neue e Android)
 
-### Criado com :hammer_and_wrench:
+## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+- HTML5 semântico
+- CSS3 moderno (Flexbox, variáveis, media queries)
+- Design responsivo (mobile-first)
+- Gradientes e efeitos visuais
+- Favicon personalizado
 
-### O que aprendi :brain:
+## 📂 Estrutura do Projeto
