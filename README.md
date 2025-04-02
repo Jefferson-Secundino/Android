@@ -41,13 +41,6 @@ projeto-android/
 │ └── idroid.otf
 └── README.md
 
-
-## 🎨 Design
-
-O projeto utiliza uma paleta de cores verde inspirada no Android:
-
-![Paleta de Cores](https://via.placeholder.com/400x100/83e1ad/3ddc84/1a5c37?text=Paleta+Android)
-
 ## 📝 Como Usar
 
 1. Clone o repositório:
@@ -56,7 +49,8 @@ git clone https://github.com/Jefferson-Secundino/Android/tree/main?tab=readme-ov
 
 Abra o arquivo index.html no seu navegador
 
-📱 Responsividade
+## 📱 Responsividade
+
 O site foi desenvolvido com abordagem mobile-first e inclui:
 
 Imagens responsivas (com versões para mobile)
@@ -70,11 +64,4 @@ Media queries para diferentes breakpoints
 🤝 Créditos
 Conteúdo original por Gustavo Guanabara (CursoemVideo)
 
-Desenvolvido e adaptado por [Jefferson Secundino]
-
-Fontes:
-
-Bebas Neue
-
-Android
-
+Desenvolvido e adaptado por [JeffersonSecundino]
