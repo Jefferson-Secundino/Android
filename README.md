@@ -1,4 +1,4 @@
-# Curiosidades de Tecnologia - História do Mascote Android 📱
+# História do Mascote Android 📱
 
 ![Preview do Site](imagens/preview.jpg)
 
@@ -19,12 +19,11 @@ Um site responsivo que conta a história do mascote Android, desenvolvido como p
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** (semântico e acessível)
-- **CSS3** (Flexbox, variáveis, media queries)
-- Design **mobile-first**
-- Gradientes e efeitos visuais CSS
-- Favicon personalizado
-- Imagens otimizadas para web
+| Frontend  | Detalhes |
+|-----------|----------|
+| **HTML5** | Estrutura semântica com `<article>`, `<section>`, `<picture>` |
+| **CSS3**  | Flexbox, variáveis CSS, media queries, pseudo-elementos |
+| **Design**| Abordagem mobile-first, paleta de cores Android |
 
 ## 🧩 Desafios Enfrentados
 
@@ -34,13 +33,14 @@ Um site responsivo que conta a história do mascote Android, desenvolvido como p
 - Vídeo do YouTube que mantém proporção em todos os dispositivos
 
 ### Design
-- Criação de efeitos hover suaves nos links
-- Implementação de fontes personalizadas (@font-face)
-- Ajuste fino das sombras e gradientes
+- - Desenvolvimento de uma paleta de cores baseada no Android
+- Criação de efeitos hover com `transition` e `transform`
+- Implementação de gradientes com `linear-gradient()`
 
-### Estrutura
-- Organização do CSS com metodologia BEM (Block Element Modifier)
-- Manutenção da hierarquia visual em diferentes tamanhos de tela
+### 🏗️ Arquitetura CSS
+- Organização seguindo princípios BEM (Block__Element--Modifier)
+- Uso estratégico de variáveis CSS para cores e fontes
+- Media queries bem definidas para 3 breakpoints
 
 ## 📚 Aprendizados Principais
 
@@ -58,6 +58,8 @@ Um site responsivo que conta a história do mascote Android, desenvolvido como p
 
 ## 📂 Estrutura do Projeto
 
+ O projeto é organizado da seguinte maneira para garantir uma estrutura limpa e de fácil manutenção:
+
 ```
 projeto-android/
 ├── index.html
@@ -74,9 +76,6 @@ projeto-android/
 └── README.md
 ```
 
----
-
-
 ## 📝 Como Usar
 
 1. Clone o repositório:
@@ -85,7 +84,7 @@ projeto-android/
    ```
 2. Abra o arquivo `index.html` no seu navegador.
 
----
+3. Abra no navegador e explore o site responsivo sobre a história do mascote Android! 🚀
 
 ## 🤝 Créditos
 
@@ -93,8 +92,6 @@ projeto-android/
 - **Desenvolvimento e adaptação:** Jefferson Secundino
 - **Ícones:** [Flaticon](https://www.flaticon.com/)
 - **Fontes:** [Google Fonts](https://fonts.google.com/)
-
----
 
 ## 📄 Licença
 
