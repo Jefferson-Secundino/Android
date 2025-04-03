@@ -34,7 +34,7 @@ Um site responsivo que conta a história do mascote Android, desenvolvido como p
 - Vídeo do YouTube que mantém proporção em todos os dispositivos
 
 ### Design
-- - Desenvolvimento de uma paleta de cores baseada no Android
+- Desenvolvimento de uma paleta de cores baseada no Android
 - Criação de efeitos hover com `transition` e `transform`
 - Implementação de gradientes com `linear-gradient()`
 
