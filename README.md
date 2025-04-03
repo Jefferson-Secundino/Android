@@ -79,16 +79,6 @@ projeto-android/
 └── README.md
 ```
 
-## 📝 Como Usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Jefferson-Secundino/Android.git
-   ```
-2. Abra o arquivo `index.html` no seu navegador.
-
-3. Abra no navegador e explore o site responsivo sobre a história do mascote Android! 🚀
-
 ## 🤝 Créditos
 
 - **Conteúdo original:** Gustavo Guanabara ([CursoemVideo](https://www.cursoemvideo.com/))
