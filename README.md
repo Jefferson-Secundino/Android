@@ -67,11 +67,13 @@ projeto-android/
 ├── style/
 │   └── style.css
 ├── imagens/
+│   ├── bugdroid.png
 │   ├── dan-droids.png
 │   ├── dan-droids-pq.png
+│   ├── favicon.ico
 │   ├── irina-blok.jpg
 │   ├── irina-blok-pq.jpg
-│   └── bugdroid.png
+│   └── captura de tela-github-io-Android.png
 ├── font/
 │   └── idroid.otf
 └── README.md
